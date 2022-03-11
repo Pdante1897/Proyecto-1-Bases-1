@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="018FB404-2639-9D63-BD29-A415DC2D4493" name="DIAGNOSTICO">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 06:12:43 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_diagnostico" id="2CB21EE6-54D7-5DF9-08A6-468FD6E2C18D">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 02:41:06 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_diag" id="B934C019-421D-71F0-7B7E-217AC2D54126">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 02:42:00 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C71729E9-3590-FF29-AFD2-1C5A9F01EABC" name="DIAGNOSTICO PK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 02:41:39 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2CB21EE6-54D7-5DF9-08A6-468FD6E2C18D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

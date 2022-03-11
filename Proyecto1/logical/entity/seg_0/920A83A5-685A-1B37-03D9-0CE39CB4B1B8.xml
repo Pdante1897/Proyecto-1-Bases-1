@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="920A83A5-685A-1B37-03D9-0CE39CB4B1B8" name="PACIENTE">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 06:11:45 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paciente" id="210E8DB6-62B2-F5D0-3ED3-FA9886A31DE0">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 21:10:41 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_pa" id="57533D61-7133-FB6A-25F8-701C62FFAD8F">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 21:10:00 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos_pa" id="12AA5CDB-7F36-094B-9BBF-645712E6FD8A">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 21:13:24 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_pa" id="5F72F212-D022-745A-5587-C7FD07E2E57C">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 21:14:19 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_pa" id="8004F5AF-1C27-F3A0-8AC4-584E269FC6C0">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 21:15:07 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nac_pa" id="8F1FA077-185B-1403-2672-13A0E234A76D">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 23:33:47 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="A8C79CE0-6800-D10F-982F-0E2246CF2C0E">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 23:34:47 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="A8F13B7D-6B71-5B4D-2A87-DAC6DB1BC41C">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 23:35:17 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_genero" id="1946C07B-7CB2-1698-C830-DCF9B93B4060">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 23:46:58 UTC</createdTime>
+<generatorID>C8777DA9-6A3A-BCE1-9C67-D6E3206782EF</generatorID>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<referedAttribute>8E1625EE-D3CD-A5D6-A93C-0B56CF6D1409</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88BF6269-080A-3734-DB02-E33FF30FDCAC" name="PACIENTE PK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-04 21:11:03 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<engineerTo>
+<item key="2AB79113-A7F4-B6A1-BF22-AC5D46DA074B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>210E8DB6-62B2-F5D0-3ED3-FA9886A31DE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

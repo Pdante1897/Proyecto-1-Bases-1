@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9D3B4D4-CD55-DD50-14CE-C0C62A8CB2C2" name="TRATAMIENTO">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:07:57 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_trat" id="2B59875F-359C-3C1F-E7D2-20A15A899EE3">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:41:11 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_tra" id="50240DB3-5DE0-EA67-8D50-B1BBB170DD39">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:41:11 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7C5A226-C82F-EF7B-541A-79F5CD996860" name="TRATAMIENTO_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:41:11 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B59875F-359C-3C1F-E7D2-20A15A899EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

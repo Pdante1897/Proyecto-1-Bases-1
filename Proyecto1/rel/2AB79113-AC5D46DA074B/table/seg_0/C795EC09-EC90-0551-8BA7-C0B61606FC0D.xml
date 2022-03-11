@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C795EC09-EC90-0551-8BA7-C0B61606FC0D" name="PACIENTE">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:06:24 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paciente" id="7FED4C07-684D-A1A2-2714-C987F2ABCE3D">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:18:15 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_pa" id="CBB310A4-0E6A-6049-F18B-B591553A2CA6">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:18:15 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos_pa" id="FD382A0B-7C91-F8AE-88D6-88F805CB098B">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:18:40 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_pa" id="79BA7ECE-38B8-7EB8-D1E5-99B19F2CCE57">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:20:45 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_pa" id="B305C60D-CFA4-316E-401C-BD6B6F78FE39">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:20:45 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac_pa" id="251FAF3F-8A3A-6067-A0AD-AA2F44D1D245">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:20:45 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="3C693BCB-61C4-F19F-F074-C12C398CF09B">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:20:45 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="1C30A6A5-FBCB-B0B1-4CCA-27313221D182">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:20:45 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO_id_genero" id="59F68B6C-73DF-1CF6-03AF-373DF5AC579E">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:25:30 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6E96BFB-948A-A2D4-62FA-94093764081C" referredColumn="B2271D91-E81B-9BE6-2FFB-0B6754FE585B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEB4BAE7-461E-4094-826B-2E5895685BA4" name="PACIENTE_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:18:15 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FED4C07-684D-A1A2-2714-C987F2ABCE3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66D9EB41-3E00-9CC3-67B8-78243727B570" name="PACIENTE_GENERO_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:25:30 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59F68B6C-73DF-1CF6-03AF-373DF5AC579E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

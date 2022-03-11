@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BB487C2-E808-44E4-1AAA-458964A362A3" name="DIAGNOSTICO_GE">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:07:29 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_diagnostico_ge" id="B1D1768A-4D97-32E3-54F4-6A86BF50F802">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:56:41 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rango" id="47326FEA-91C0-A817-7B19-A894A20EC923">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:56:41 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SINTOMA_id_sintoma" id="F3DDC305-A712-4E96-7906-2573153D3D75">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:58:02 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CE9788B-B215-A3C8-3CD1-7895614E413B" referredColumn="3CBD18DB-E25B-D6A4-5DEB-E081C277B3C4"/>
+</associations>
+</Column>
+<Column name="DIAGNOSTICO_id_diagnostico" id="BC15C525-5794-923F-0638-9DD3562B8336">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:58:07 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4B105A0-56AC-B20D-06DD-C0033E42937B" referredColumn="1D15E407-8028-0CFD-2056-6AB5527D51A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6FD8C4A-5DA9-3BC8-FC96-1B067365D2F4" name="DIAGNOSTICO_GE_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:56:41 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1D1768A-4D97-32E3-54F4-6A86BF50F802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23CAB17A-B9E2-B4C5-6825-42975F2F2C94" name="DIAGNOSTICO_GE_SINTOMA_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:58:02 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3DDC305-A712-4E96-7906-2573153D3D75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDF1776D-3568-4AF2-D03C-E518A4BB1600" name="DIAGNOSTICO_GE_DIAGNOSTICO_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:58:07 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC15C525-5794-923F-0638-9DD3562B8336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

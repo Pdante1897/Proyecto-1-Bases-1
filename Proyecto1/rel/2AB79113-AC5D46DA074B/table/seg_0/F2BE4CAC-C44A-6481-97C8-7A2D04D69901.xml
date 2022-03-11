@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2BE4CAC-C44A-6481-97C8-7A2D04D69901" name="EMPLEADO">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="CE406C80-FD6F-120A-7617-218F43543663">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_em" id="CD288FBF-DA49-6918-B574-AD330076E722">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos_em" id="A15A9FE5-C90F-7C97-E43F-C50C57063C3B">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_em" id="C672EEC3-DAE4-B78C-F613-DB0FCA85506E">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_em" id="D041F1D5-CFBE-8397-2355-C095A17EB54D">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac_em" id="AA981753-19FE-0CB9-9568-0DD684CB3F00">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESION_id_profesion" id="4F65AFB1-02CD-311E-DD22-98ED96B45E40">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:26:53 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13BB0B07-FE20-857D-F42D-76802E3B8DEA" referredColumn="B11B2B17-8AFB-2830-1CF7-C8F11DB151AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F721192A-CB40-299E-5B7C-76021157A3E2" name="EMPLEADO_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE406C80-FD6F-120A-7617-218F43543663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E43D1953-2F23-3CBA-287B-29F89732FAA0" name="PACIENTEv1_GENERO_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="99CE3AAD-B747-03D7-73F8-921C7C1A655C" name="EMPLEADO_PROFESION_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:26:53 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F65AFB1-02CD-311E-DD22-98ED96B45E40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

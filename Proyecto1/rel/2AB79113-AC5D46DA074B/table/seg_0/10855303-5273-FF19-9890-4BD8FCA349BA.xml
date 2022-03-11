@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10855303-5273-FF19-9890-4BD8FCA349BA" name="LISTA_TRATAMIENTO">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:08:02 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lista" id="74B4B2F0-D421-3ADA-3BE0-F69CE2791C99">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:40:34 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACIENTE_id_paciente" id="572343EB-9F7F-B833-56F1-84ED1CDC12A3">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:37:59 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06597AF9-48D6-4F26-E50E-DA2365F6B0B0" referredColumn="7FED4C07-684D-A1A2-2714-C987F2ABCE3D"/>
+</associations>
+</Column>
+<Column name="TRATAMIENTO_id_trat" id="9ABF1E2F-9B9C-A09C-B3E5-59D220D60136">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:41:16 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A8FA822-514A-6F06-D287-75ADE1E6B3AB" referredColumn="2B59875F-359C-3C1F-E7D2-20A15A899EE3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BF4869B-779C-FF28-7DCA-ECF0E214F5D9" name="LISTA_TRATAMIENTO_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:40:34 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74B4B2F0-D421-3ADA-3BE0-F69CE2791C99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15982415-9DD6-9903-0E2D-9BDDB6D855E3" name="LISTA_TRATAMIENTO_PACIENTE_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:37:59 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="572343EB-9F7F-B833-56F1-84ED1CDC12A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45E74227-B91E-7195-70DB-71C5FF722C53" name="LISTA_TRATAMIENTO_TRATAMIENTO_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:41:16 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ABF1E2F-9B9C-A09C-B3E5-59D220D60136"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

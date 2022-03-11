@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDD395DB-A97B-2DAE-3A94-2550F1F046A9" name="DIAGNOSTICO">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:07:12 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_diagnostico" id="1D15E407-8028-0CFD-2056-6AB5527D51A8">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:57:24 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_diag" id="347E9633-A1DF-CC67-702C-8636172284D5">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:57:24 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F192191-B219-F269-DD6D-4DA9600F796E" name="DIAGNOSTICO_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:57:24 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D15E407-8028-0CFD-2056-6AB5527D51A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

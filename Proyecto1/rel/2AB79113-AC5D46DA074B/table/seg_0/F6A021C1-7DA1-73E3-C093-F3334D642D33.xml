@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6A021C1-7DA1-73E3-C093-F3334D642D33" name="EVALUACION">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:06:37 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLEADO_id_empleado" id="40924A66-F0E5-72AD-825E-89B7158E04AF">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:28:04 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="472FAC2D-F0B5-9DE7-8131-44560B7DC505" referredColumn="CE406C80-FD6F-120A-7617-218F43543663"/>
+</associations>
+</Column>
+<Column name="PACIENTE_id_paciente" id="9268FE5B-D8AA-437C-5916-3BC1C4506B35">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:28:56 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB04FC23-5D86-1D65-EEF8-E76A9633D292" referredColumn="7FED4C07-684D-A1A2-2714-C987F2ABCE3D"/>
+</associations>
+</Column>
+<Column name="fecha_ev" id="491C670B-23DE-531C-5A11-68DCF77D5D28">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:30:07 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAGNOSTICO_GE_id_diagnostico_ge" id="BB17E070-C0A7-8887-5AFC-73CF0EB80A32">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:58:33 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B140BD4F-8CC3-81BD-587E-09335406AE09" referredColumn="B1D1768A-4D97-32E3-54F4-6A86BF50F802"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="011F11B2-BA75-8B93-B0C2-81DB477BB171" name="EVALUACION_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:29:08 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40924A66-F0E5-72AD-825E-89B7158E04AF"/>
+<colUsage columnID="9268FE5B-D8AA-437C-5916-3BC1C4506B35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DCFDD7C-245F-3A58-72FE-6511633ED1A0" name="EVALUACION_EMPLEADO_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:28:04 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40924A66-F0E5-72AD-825E-89B7158E04AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6E6E76C-34B5-4E57-634F-38C0BE6316A9" name="EVALUACION_PACIENTE_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:28:56 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9268FE5B-D8AA-437C-5916-3BC1C4506B35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85023640-751D-E4EC-76EA-E6FE8786B821" name="EVALUACION_DIAGNOSTICO_GE_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-05 20:58:33 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB17E070-C0A7-8887-5AFC-73CF0EB80A32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
