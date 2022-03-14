@@ -56,6 +56,34 @@
 <colAssociation fkAssociation="B4B105A0-56AC-B20D-06DD-C0033E42937B" referredColumn="1D15E407-8028-0CFD-2056-6AB5527D51A8"/>
 </associations>
 </Column>
+<Column name="EVALUACION_EMPLEADO_id_empleado" id="AD25AFAA-FB77-A666-262A-E1D255DE2A25">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-14 07:52:53 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="290EE615-7F59-390F-389B-B80172D0BD93" referredColumn="40924A66-F0E5-72AD-825E-89B7158E04AF"/>
+</associations>
+</Column>
+<Column name="EVALUACION_PACIENTE_id_paciente" id="D398D8FA-1CAD-3139-64F4-5CF3348BBD27">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-14 07:52:53 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="290EE615-7F59-390F-389B-B80172D0BD93" referredColumn="9268FE5B-D8AA-437C-5916-3BC1C4506B35"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F6FD8C4A-5DA9-3BC8-FC96-1B067365D2F4" name="DIAGNOSTICO_GE_PK">
@@ -87,6 +115,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BC15C525-5794-923F-0638-9DD3562B8336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4FA52E8-5277-B301-6564-10F87274681A" name="DIAGNOSTICO_GE_EVALUACION_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-14 07:52:53 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD25AFAA-FB77-A666-262A-E1D255DE2A25"/>
+<colUsage columnID="D398D8FA-1CAD-3139-64F4-5CF3348BBD27"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -66,7 +66,12 @@ insert into EMPLEADO (nombre_em, apellidos_em, direccion_em, telefono_em, fecha_
 from Big_Smoke_Data_Temp join GENERO on GENERO_EMPLEADO=nombre_ge join PROFESION on TITULO_DEL_EMPLEADO = nombre_profesion
 GROUP BY NOMBRE_EMPLEADO, APELLIDO_EMPLEADO, DIRECCION_EMPLEADO, TELEFONO_EMPLEADO, id_genero, id_profesion , FECHA_NACIMIENTO_EMPLEADO HAVING COUNT(*)>0);
 
--- Tabla Diagnostico
+-- Tabla Lista Tratamientos
+ 
+ insert into LISTA_TRATAMIENTO (paciente, tratamiento, fecha_trat)
+(select id_paciente, id_trat, FECHA_TRATAMIENTO 
+from Big_Smoke_Data_Temp join PACIENTE on TELEFONO_PACIENTE=telefono_pa and NOMBRE_PACIENTE =nombre_pa and APELLIDO_PACIENTE = apellidos_pa join TRATAMIENTO on nombre_tra = TRATAMIENTO_APLICADO
+GROUP BY id_paciente, id_trat, FECHA_TRATAMIENTO HAVING COUNT(*)>0)
 
 -- Tabla Diagnostico
 

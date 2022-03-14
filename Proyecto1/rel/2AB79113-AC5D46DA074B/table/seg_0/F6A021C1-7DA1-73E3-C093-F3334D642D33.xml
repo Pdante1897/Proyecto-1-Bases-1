@@ -46,20 +46,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DIAGNOSTICO_GE_id_diagnostico_ge" id="BB17E070-C0A7-8887-5AFC-73CF0EB80A32">
-<createdBy>gerar</createdBy>
-<createdTime>2022-03-05 20:58:33 UTC</createdTime>
-<ownerDesignName>Proyecto1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B140BD4F-8CC3-81BD-587E-09335406AE09" referredColumn="B1D1768A-4D97-32E3-54F4-6A86BF50F802"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="011F11B2-BA75-8B93-B0C2-81DB477BB171" name="EVALUACION_PK">
@@ -92,16 +78,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9268FE5B-D8AA-437C-5916-3BC1C4506B35"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="85023640-751D-E4EC-76EA-E6FE8786B821" name="EVALUACION_DIAGNOSTICO_GE_FK">
-<createdBy>gerar</createdBy>
-<createdTime>2022-03-05 20:58:33 UTC</createdTime>
-<ownerDesignName>Proyecto1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BB17E070-C0A7-8887-5AFC-73CF0EB80A32"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
