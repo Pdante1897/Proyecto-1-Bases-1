@@ -1,5 +1,5 @@
 
-SQL*Loader: Release 18.0.0.0.0 - Production on Fri Mar 11 00:59:52 2022
+SQL*Loader: Release 18.0.0.0.0 - Production on Fri Mar 11 21:33:51 2022
 Version 18.5.0.0.0
 
 Copyright (c) 1982, 2018, Oracle and/or its affiliates.  All rights reserved.
@@ -65,8 +65,8 @@ Total logical records read:        126333
 Total logical records rejected:         0
 Total logical records discarded:        0
 
-Run began on Fri Mar 11 00:59:52 2022
-Run ended on Fri Mar 11 01:00:07 2022
+Run began on Fri Mar 11 21:33:51 2022
+Run ended on Fri Mar 11 21:33:59 2022
 
-Elapsed time was:     00:00:14.61
-CPU time was:         00:00:04.19
+Elapsed time was:     00:00:08.56
+CPU time was:         00:00:02.23
