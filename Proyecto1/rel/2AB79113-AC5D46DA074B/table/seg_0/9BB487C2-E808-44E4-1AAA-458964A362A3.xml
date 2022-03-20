@@ -56,9 +56,9 @@
 <colAssociation fkAssociation="B4B105A0-56AC-B20D-06DD-C0033E42937B" referredColumn="1D15E407-8028-0CFD-2056-6AB5527D51A8"/>
 </associations>
 </Column>
-<Column name="EVALUACION_EMPLEADO_id_empleado" id="AD25AFAA-FB77-A666-262A-E1D255DE2A25">
+<Column name="EVALUACION_id_evaluacion" id="7D7A5F8F-D531-CFFC-C0D3-F445A96AC82D">
 <createdBy>gerar</createdBy>
-<createdTime>2022-03-14 07:52:53 UTC</createdTime>
+<createdTime>2022-03-14 20:03:29 UTC</createdTime>
 <ownerDesignName>Proyecto1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -67,21 +67,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="290EE615-7F59-390F-389B-B80172D0BD93" referredColumn="40924A66-F0E5-72AD-825E-89B7158E04AF"/>
-</associations>
-</Column>
-<Column name="EVALUACION_PACIENTE_id_paciente" id="D398D8FA-1CAD-3139-64F4-5CF3348BBD27">
-<createdBy>gerar</createdBy>
-<createdTime>2022-03-14 07:52:53 UTC</createdTime>
-<ownerDesignName>Proyecto1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="290EE615-7F59-390F-389B-B80172D0BD93" referredColumn="9268FE5B-D8AA-437C-5916-3BC1C4506B35"/>
+<colAssociation fkAssociation="290EE615-7F59-390F-389B-B80172D0BD93" referredColumn="970B54D6-118A-176E-7D76-4432F844F5AE"/>
 </associations>
 </Column>
 </columns>
@@ -124,8 +110,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AD25AFAA-FB77-A666-262A-E1D255DE2A25"/>
-<colUsage columnID="D398D8FA-1CAD-3139-64F4-5CF3348BBD27"/>
+<colUsage columnID="7D7A5F8F-D531-CFFC-C0D3-F445A96AC82D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

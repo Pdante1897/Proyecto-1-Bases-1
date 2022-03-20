@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_evaluacion" id="970B54D6-118A-176E-7D76-4432F844F5AE">
+<createdBy>gerar</createdBy>
+<createdTime>2022-03-14 20:01:22 UTC</createdTime>
+<ownerDesignName>Proyecto1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="EMPLEADO_id_empleado" id="40924A66-F0E5-72AD-825E-89B7158E04AF">
 <createdBy>gerar</createdBy>
 <createdTime>2022-03-05 20:28:04 UTC</createdTime>
@@ -56,8 +66,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="40924A66-F0E5-72AD-825E-89B7158E04AF"/>
-<colUsage columnID="9268FE5B-D8AA-437C-5916-3BC1C4506B35"/>
+<colUsage columnID="970B54D6-118A-176E-7D76-4432F844F5AE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="8DCFDD7C-245F-3A58-72FE-6511633ED1A0" name="EVALUACION_EMPLEADO_FK">
