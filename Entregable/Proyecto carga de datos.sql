@@ -1,3 +1,5 @@
+drop table Big_Smoke_Data_Temp
+
 CREATE TABLE  Big_Smoke_Data_Temp (
     NOMBRE_EMPLEADO VARCHAR(200) null,
     APELLIDO_EMPLEADO VARCHAR(200) null,
@@ -22,13 +24,6 @@ CREATE TABLE  Big_Smoke_Data_Temp (
     TRATAMIENTO_APLICADO VARCHAR(200)null
 )
 
-drop table Big_Smoke_Data_Temp
-delete from Big_Smoke_Data_Temp
-
-
-select count(*) from Paciente
-
-select * from Big_Smoke_Data_Temp 
 
 INSERT INTO GENERO (NOMBRE_GE) (select GENERO_PACIENTE from Big_Smoke_Data_Temp  GROUP BY GENERO_PACIENTE HAVING COUNT(*)>0);
 
@@ -81,13 +76,13 @@ from evaluacion  join PACIENTE on id_paciente=paciente
  join Big_Smoke_Data_Temp on TELEFONO_PACIENTE=telefono_pa and NOMBRE_PACIENTE =nombre_pa and APELLIDO_PACIENTE = apellidos_pa 
 and TELEFONO_EMPLEADO=telefono_em and NOMBRE_EMPLEADO =nombre_em and APELLIDO_EMPLEADO = apellidos_em 
  join sintoma on nombre_sintoma=SINTOMA_DEL_PACIENTE
- join diagnostico on nombre_diag=DIAGNOSTICO_DEL_SINTOMA);
+ join diagnostico on nombre_diag=DIAGNOSTICO_DEL_SINTOMA );
  
  
  
  
  
- 
+
  
  
  

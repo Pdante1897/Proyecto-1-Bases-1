@@ -66,6 +66,41 @@ where nombre_ge='F' and direccion_em='1475 Dryden Crossing'
 group by nombre_em, apellidos_em, fecha_nac_em  having count(id_empleado)>1 order by pacientes desc
 
 
+--Consulta 9
+
+select DISTINCT  nombre_em as nombre, apellidos_em as apellido, 
+(select count(*)from evaluacion where evaluacion.empleado=id_empleado and evaluacion.fecha_ev between '1/1/2017' and systimestamp)/(select count(*)from evaluacion )*100 as porcentaje
+from empleado
+inner join evaluacion on id_empleado=evaluacion.empleado and evaluacion.fecha_ev between '1/1/2017' and systimestamp
+order by porcentaje desc
+
+
+
+--Consulta 10
+
+select DISTINCT  nombre_profesion as titulo, 
+(select count(*)from empleado where empleado.profesion=id_profesion)/(select count(*)from empleado )*100 as porcentaje
+from profesion
+inner join empleado on id_profesion=empleado.profesion
+order by porcentaje desc
+
+
+--Consulta 11
+
+select anio, mes, paciente,nombre, apellido, cantidad
+from (select DISTINCT EXTRACT(YEAR FROM fecha_ev)as anio, EXTRACT(MONTH FROM fecha_ev) as mes, id_paciente as paciente, nombre_pa as nombre, apellidos_pa as apellido, 
+(select count(*) from lista_tratamiento where id_paciente=lista_tratamiento.paciente ) as cantidad
+from evaluacion
+full outer join paciente on id_paciente=evaluacion.paciente
+inner join lista_tratamiento on lista_tratamiento.paciente=id_paciente 
+order by cantidad desc)
+where cantidad = (select max(maximo) from (select (select count(id_paciente) from lista_tratamiento where id_paciente=lista_tratamiento.paciente ) as maximo
+from evaluacion
+inner join paciente on id_paciente=evaluacion.paciente
+inner join lista_tratamiento on lista_tratamiento.paciente=id_paciente)) or cantidad = 1
+
+
+
 
 
 
